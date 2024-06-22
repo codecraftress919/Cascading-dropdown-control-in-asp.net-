@@ -1,0 +1,14 @@
+system.webServer>
+    <defaultDocument>
+       <files>
+          <add value="insertion.aspx" />
+       </files>
+    </defaultDocument>
+    <directoryBrowse enabled="false" />
+</system.webServer>
+add this into your web config file
+and change the name of your aspx file
+else
+<system.webServer>
+    <directoryBrowse enabled="true" />
+</system.webServer>
